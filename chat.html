@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>More</title>
+  <link rel="stylesheet" href="css/chat.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
@@ -35,9 +36,38 @@
           <i class="fa fa-search"></i>
           <i class="fa fa-bars"></i>
         </div>
-        </div>
-
       </div>
   </header>
+  <main class="chat">
+    <div class="date-divider">
+        <span class="date-divider__text">Wednesday, August2, 17th</span>
+    </div>
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">17:55</span>
+      <span class="chat__message-body">
+          Hello! This is a test message.
+      </span>
+    </div>
+    <div class="chat__message chat__message-to-me">
+      <img class="chat_profile" src="images/san.jpg" alt="" class="chat__message-avatar">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">San</h3>
+        <span class="chat__message-body">
+          And this is an answer
+        </span>
+      </div>
+      <span class="chat__message-time">19:55</span>
+    </div>
+  </main>
+  <div class="type-message">
+    <i class="fa fa-plus fa-2x"></i>
+    <div class="type-message__input">
+      <input type="text">
+      <i class="far fa-smile"></i>
+      <span class="record-message">
+        <i class="fa fa-microphone"></i>
+      </span>
+    </div>
+  </div>
 </body>
 </html>
