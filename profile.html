@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>More</title>
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/chat.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
@@ -26,7 +27,9 @@
       </div>
       <div class="header__bottom">
         <div class="header__column">
-          <i class="fa fa-times fa-lg"></i>
+          <a href="index.html">
+            <i class="fa fa-times fa-lg"></i>
+          </a>
         </div>
         <div class="header__column">
 
@@ -35,8 +38,29 @@
           <i class="fa fa-user fa-lg"></i>
         </div>
         </div>
-
       </div>
   </header>
+  <main class="profile">
+<header class="profile__header">
+  <img src="images/san.jpg" class="chat_profile" alt="">
+  <h3 class="profile__headedr-title">San</h3>
+  <input type="text" placeholder="metternichch@gmail.com">
+  <div class="profile__actions">
+    <div class="profile__action">
+      <span class="profile__action-circle">
+        <i class="fa fa-comment fa-2x"></i>
+      </span>
+      <span class="profile__action-circle">My Chatroom</span>
+    </div>
+    <div class="profile__action">
+      <span class="profile__action-circle">
+        <i class="fa fa-pencil-alt fa-2x"></i>
+      </span>
+      <span class="profile__action-circle">Edit Profile</span>
+    </div>
+  </div>
+</header>
+
+  </main>
 </body>
 </html>
